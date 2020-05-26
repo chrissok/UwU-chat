@@ -11,7 +11,7 @@ const io = socketio(server);
 
 app.use(express.static(path.join(__dirname, 'public')))
 
-const botName = 'CriCriBot';
+const botName = 'Uwu Bot';
 
 io.on('connection', socket => {
     socket.on('joinRoom', ({ username, room }) => {
